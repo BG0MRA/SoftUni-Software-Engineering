@@ -1,4 +1,4 @@
-package E01_BasicSyntax;
+package E01BasicSyntax;
 
 public class Hello {
     public static void main(String[] args) {
