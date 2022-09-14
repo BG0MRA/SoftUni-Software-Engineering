@@ -1,4 +1,4 @@
-# <a href="https://softuni.bg/"> Softuni-Software-Engineering </a>
+# <a href="https://softuni.bg/"> SoftUni Software Engineering </a>
 This repository includes programs from the main course of SoftUni training.
 <h2> Certificates: </h2>
 <a href="https://softuni.bg/trainings/3745/programming-basics-with-java-may-2022" > Programming Basics with Java </a> | 
