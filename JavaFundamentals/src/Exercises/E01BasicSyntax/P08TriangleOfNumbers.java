@@ -2,7 +2,7 @@ package E01BasicSyntax;
 
 import java.util.Scanner;
 
-public class P08TriangleofNumbers {
+public class P08TriangleOfNumbers {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         //Write a program that receives a number – n and prints a triangle from 1 to n as in the examples.
