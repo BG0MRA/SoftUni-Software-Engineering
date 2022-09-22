@@ -21,6 +21,7 @@ public class P12RefactorSpecialNumbers {
                 System.out.printf("%d -> False%n", currentSum);
             }
             i = currentSum;
+
         }
     }
 }
