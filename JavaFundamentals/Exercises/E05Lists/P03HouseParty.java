@@ -22,14 +22,14 @@ public class P03HouseParty {
             String lineInput = scanner.nextLine();
             String[] inputGuests = lineInput.split("\\s+");
             String name = inputGuests[0];
-            if (inputGuests.length == 3) {
+            if (lineInput.contains("is going!")) {
                 if (guestNames.contains(name)) {
                     System.out.printf("%s is already in the list!\n", name);
                 } else {
                     guestNames.add(name);
                 }
 
-            } else if (inputGuests.length == 4) {
+            } else if (lineInput.contains("is not going!")) {
                 if (guestNames.contains(name)) {
                     guestNames.remove(name);
                 } else {
