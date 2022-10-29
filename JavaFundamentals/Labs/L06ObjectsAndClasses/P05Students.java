@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
-public class P06Students {
+public class P05Students {
     static class Student {
         private String firstName;
         private String lastName;
