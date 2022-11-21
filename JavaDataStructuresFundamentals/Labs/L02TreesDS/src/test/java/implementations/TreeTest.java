@@ -49,6 +49,7 @@ public class TreeTest {
         }
     }
 
+
     @Test
     public void testAddTree() {
         tree.addChild(1, new Tree<>(-1, new Tree<>(-2), new Tree<>(-3)));
