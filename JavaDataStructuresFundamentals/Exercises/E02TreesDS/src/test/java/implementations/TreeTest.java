@@ -47,14 +47,16 @@ public class TreeTest {
         TreeFactory treeFactory = new TreeFactory();
         Tree<Integer> tree = treeFactory.createTreeFromStrings(input);
 
-        assertEquals("7\r\n" +
-                "  19\r\n" +
-                "    1\r\n" +
-                "    12\r\n" +
-                "    31\r\n" +
-                "  21\r\n" +
-                "  14\r\n" +
-                "    23\r\n" +
+        System.out.println(tree.getAsString());
+
+        assertEquals("7\n" +
+                "  19\n" +
+                "    1\n" +
+                "    12\n" +
+                "    31\n" +
+                "  21\n" +
+                "  14\n" +
+                "    23\n" +
                 "    6", tree.getAsString());
     }
 

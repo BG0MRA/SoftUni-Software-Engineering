@@ -23,12 +23,15 @@ public class TheMatrixTest {
 
         theMatrix.solve();
 
+        System.out.println(theMatrix.toOutputString());
+
         String str = theMatrix.toOutputString();
+
         assertEquals(
-                "xxx\r\n" +
-                        "xxx\r\n" +
-                        "xbx\r\n" +
-                        "xbx\r\n" +
+                "xxx\n" +
+                        "xxx\n" +
+                        "xbx\n" +
+                        "xbx\n" +
                         "xbx", str);
     }
 
@@ -52,10 +55,10 @@ public class TheMatrixTest {
 
         String str = theMatrix.toOutputString();
         assertEquals(
-                "aaa\r\n" +
-                        "aaa\r\n" +
-                        "axa\r\n" +
-                        "axa\r\n" +
+                "aaa\n" +
+                        "aaa\n" +
+                        "axa\n" +
+                        "axa\n" +
                         "axa", str);
     }
 
@@ -78,10 +81,10 @@ public class TheMatrixTest {
 
         String str = theMatrix.toOutputString();
         assertEquals(
-                "oo11oo\r\n" +
-                        "o1331o\r\n" +
-                        "133331\r\n" +
-                        "o1331o\r\n" +
+                "oo11oo\n" +
+                        "o1331o\n" +
+                        "133331\n" +
+                        "o1331o\n" +
                         "oo11oo", str);
     }
 
@@ -104,10 +107,10 @@ public class TheMatrixTest {
 
         String str = theMatrix.toOutputString();
         assertEquals(
-                "oooooo\r\n" +
-                        "ooo1oo\r\n" +
-                        "oo1o11\r\n" +
-                        "o11w1z\r\n" +
+                "oooooo\n" +
+                        "ooo1oo\n" +
+                        "oo1o11\n" +
+                        "o11w1z\n" +
                         "1zzzzz", str);
     }
 
@@ -130,10 +133,10 @@ public class TheMatrixTest {
 
         String str = theMatrix.toOutputString();
         assertEquals(
-                "z1oo1z\r\n" +
-                        "z1oo1z\r\n" +
-                        "z1111z\r\n" +
-                        "z1zw1z\r\n" +
+                "z1oo1z\n" +
+                        "z1oo1z\n" +
+                        "z1111z\n" +
+                        "z1zw1z\n" +
                         "zzzzzz", str);
     }
 }
