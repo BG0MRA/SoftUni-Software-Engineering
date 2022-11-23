@@ -141,7 +141,6 @@ public class TreeTest {
         Tree<Integer> tree = treeFactory.createTreeFromStrings(input);
 
         List<Integer> longestPath = tree.getLongestPath();
-
         assertEquals(List.of(7, 19, 1), longestPath);
     }
 
