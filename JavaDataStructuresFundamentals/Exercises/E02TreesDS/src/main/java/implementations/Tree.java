@@ -250,7 +250,28 @@ public class Tree<E> implements AbstractTree<E> {
 
     @Override
     public List<Tree<E>> subTreesWithGivenSum(int sum) {
-        return null;
+        List<Tree<E>> resultTree = new ArrayList<>();
+
+        getSubTreeWithGivenSum(this, sum, 0, resultTree);
+
+        return resultTree;
+    }
+
+    public int getSubTreeWithGivenSum(Tree<E> node, int targetSum, int currentSum, List<Tree<E>> resultTree) {
+        //if no leaf
+//        if (node.getChildren().isEmpty()) {
+//            currentSum = (Integer) node.getKey();
+//        } else {
+            //have child
+            currentSum = (Integer) node.getKey();
+            for (Tree<E> child : node.children) {
+                currentSum += getSubTreeWithGivenSum(child, targetSum, currentSum, resultTree);
+            }
+            if (currentSum == targetSum) {
+                resultTree.add(node);
+            }
+//        }
+        return currentSum;
     }
 }
 

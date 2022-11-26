@@ -185,6 +185,7 @@ public class TreeTest {
         Tree<Integer> tree = treeFactory.createTreeFromStrings(input);
         List<Tree<Integer>> trees = tree.subTreesWithGivenSum(43);
         String asString = trees.get(0).getAsString();
+        assertEquals(1, trees.size());
         assertTrue(asString.contains("14"));
         assertTrue(asString.contains("23"));
         assertTrue(asString.contains("6"));
