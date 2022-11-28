@@ -50,4 +50,107 @@ public class BinarySearchTreeTest {
 
     }
 
+    @Test
+    public void testContainsTrue() {
+        Assert.assertTrue(bst.contains(6));
+
+        Assert.assertFalse(bst.contains(8));
+
+    }
+
+    @Test
+    public void testSearchTrue() {
+        BinarySearchTree<Integer> search = bst.search(7);
+
+        bst.insert(8);
+
+        Assert.assertEquals(Integer.valueOf(7), search.getRoot().getValue());
+        Assert.assertEquals(Integer.valueOf(6), search.getRoot().getLeft().getValue());
+        Assert.assertEquals(Integer.valueOf(17), search.getRoot().getRight().getValue());
+
+        Assert.assertTrue(bst.contains(8));
+        Assert.assertFalse(search.contains(8));
+    }
+
+    @Test
+    public void testSearchFalse() {
+        Assert.assertNull(bst.search(8));
+    }
+
+    @Test
+    public void testRange() {
+        List<Integer> range = bst.range(3, 7);
+        // 3 5 6 7
+        List<Integer> expected = Arrays.asList(3, 5, 6, 7);
+
+        Assert.assertEquals(4, range.size());
+
+        for (Integer value : range) {
+            Assert.assertTrue(expected.contains(value));
+        }
+    }
+
+    @Test
+    public void testDeleteMin() {
+        Assert.assertTrue(bst.contains(1));
+        bst.deleteMin();
+        Assert.assertFalse(bst.contains(1));
+    }
+
+    @Test
+    public void testDeleteMax() {
+        Assert.assertTrue(bst.contains(17));
+        bst.deleteMax();
+        Assert.assertFalse(bst.contains(17));
+    }
+
+    @Test
+    public void testCount() {
+        Assert.assertEquals(6, bst.count());
+    }
+
+    @Test
+    public void testCountAfterInsert() {
+        bst.insert(11);
+        Assert.assertEquals(7, bst.count());
+    }
+
+    @Test
+    public void testCountAfterDeleteMin() {
+        bst.deleteMin();
+        Assert.assertEquals(5, bst.count());
+    }
+
+    @Test
+    public void testCountAfterDeleteMax() {
+        bst.deleteMax();
+        Assert.assertEquals(5, bst.count());
+    }
+
+    @Test
+    public void testRank() {
+        Assert.assertEquals(4, bst.rank(7));
+    }
+
+    @Test
+    public void testFloor() {
+        Assert.assertEquals(Integer.valueOf(6), bst.floor(7));
+    }
+
+    @Test
+    public void testEmptyFloor() {
+        Assert.assertNull(bst.floor(-1));
+    }
+
+    @Test
+    public void testCeil() {
+        Assert.assertEquals(Integer.valueOf(7), bst.ceil(6));
+    }
+
+    @Test
+    public void testEmptyCeil() {
+        Assert.assertNull(bst.ceil(20));
+    }
+
+
 }
