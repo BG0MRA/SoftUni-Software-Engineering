@@ -125,6 +125,7 @@ public class BarberShopImpl implements BarberShop {
     public Collection<Client> getClientsSortedByAgeDescAndBarbersStarsDesc() {
         return barbersWithClients.values()
                 .stream()
+                //FlatMap >>>> Stream<List<Clients>> transferring to Collection of Clients
                 .flatMap(List::stream)
                 .sorted((c1, c2) -> {
                     int result = Integer.compare(c2.age, c1.age);
