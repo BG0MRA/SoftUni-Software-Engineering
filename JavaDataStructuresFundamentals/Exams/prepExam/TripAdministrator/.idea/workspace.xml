@@ -6,17 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="ec4348e8-aced-47a2-a930-8e2b007f68ea" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tripadministratorjava/TripAdministratorImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tripadministratorjava/TripAdministratorImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tripadministratorjava/Test001.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tripadministratorjava/Test001.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tripadministratorjava/Test002.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tripadministratorjava/Test002.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tripadministratorjava/Test003.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tripadministratorjava/Test003.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tripadministratorjava/Test004.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tripadministratorjava/Test004.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tripadministratorjava/Test005.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tripadministratorjava/Test005.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tripadministratorjava/Test006.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tripadministratorjava/Test006.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tripadministratorjava/Test007.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tripadministratorjava/Test007.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tripadministratorjava/Test008.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tripadministratorjava/Test008.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tripadministratorjava/Test009.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tripadministratorjava/Test009.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tripadministratorjava/Test010.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tripadministratorjava/Test010.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
