@@ -5,7 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ec4348e8-aced-47a2-a930-8e2b007f68ea" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../1. Barber Shop_Skeleton/.~lock.1. Barber Shop_Problem Description.docx#" beforeDir="false" afterPath="$PROJECT_DIR$/../1. Barber Shop_Skeleton/.~lock.1. Barber Shop_Problem Description.docx#" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tripadministratorjava/TripAdministratorImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tripadministratorjava/TripAdministratorImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tripadministratorjava/Test001.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tripadministratorjava/Test001.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tripadministratorjava/Test002.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tripadministratorjava/Test002.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tripadministratorjava/Test003.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tripadministratorjava/Test003.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tripadministratorjava/Test004.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tripadministratorjava/Test004.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tripadministratorjava/Test005.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tripadministratorjava/Test005.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tripadministratorjava/Test006.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tripadministratorjava/Test006.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tripadministratorjava/Test007.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tripadministratorjava/Test007.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tripadministratorjava/Test008.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tripadministratorjava/Test008.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tripadministratorjava/Test009.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tripadministratorjava/Test009.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tripadministratorjava/Test010.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tripadministratorjava/Test010.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,14 +42,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/bazzalth/IdeaProjects/SoftUni-Software-Engineering/JavaDataStructuresFundamentals/Exams/prepExam/2.Trip Administrator&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "/Users/bazzalth/IdeaProjects/SoftUni-Software-Engineering/JavaDataStructuresFundamentals/Exams/prepExam/TripAdministrator",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
   }
-}</component>
-  <component name="RunManager">
+}]]></component>
+  <component name="RunManager" selected="JUnit.tripadministratorjava in TripAdministrator">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="tripadministratorjava.Main" />
       <module name="TripAdministrator" />
@@ -52,8 +66,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="tripadministratorjava in TripAdministrator" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TripAdministrator" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tripadministratorjava.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tripadministratorjava" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.tripadministratorjava in TripAdministrator" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>

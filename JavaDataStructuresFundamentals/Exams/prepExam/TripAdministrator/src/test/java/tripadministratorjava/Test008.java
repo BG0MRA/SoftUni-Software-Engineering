@@ -1,10 +1,5 @@
 package tripadministratorjava;
 
-import tripadministratorjava.Company;
-import tripadministratorjava.Transportation;
-import tripadministratorjava.Trip;
-import tripadministratorjava.TripAdministratorImpl;
-
 import org.junit.Before;
 import org.junit.Test;
 
