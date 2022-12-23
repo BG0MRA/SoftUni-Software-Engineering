@@ -9,6 +9,7 @@ This repository includes programs from the main course of SoftUni training.
 <a href="https://softuni.bg/certificates/details/148454/b1e3c0e3"> Link</a>
 <br/>
 <h4> Open Courses: </h4>
-<a href="https://softuni.bg/trainings/3922/data-structures-fundamentals-with-java-november-2022" > Data Structures Fundamentals with Java </a> | In Progress
+<a href="https://softuni.bg/trainings/3922/data-structures-fundamentals-with-java-november-2022" > Data Structures Fundamentals with Java </a> |
+<a href="https://softuni.bg/certificates/details/151444/a86803fb"> Link</a>
 <br/>
 <a href="https://softuni.bg/trainings/3924/data-structures-advanced-with-java-december-2022" > Data Structures Advanced with Java </a> | t.b.d.
