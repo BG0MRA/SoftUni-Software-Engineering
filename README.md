@@ -11,7 +11,7 @@ This repository includes programs from the main course of SoftUni training.
 <h5> Java Advanced module: </h5>
 <a href="https://softuni.bg/trainings/3959/java-advanced-january-2023" > Java Advanced</a> | t.b.d
 <br/>
-<a href="https://softuni.bg/trainings/3959/java-advanced-january-2023" > Java OOP</a> | t.b.d
+<a href="https://softuni.bg/trainings/3960/java-oop-february-2023" > Java OOP</a> | t.b.d
 <br/>
 <h3> Open Courses: </h3>
 <a href="https://softuni.bg/trainings/3922/data-structures-fundamentals-with-java-november-2022" > Data Structures Fundamentals with Java </a> |
