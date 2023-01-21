@@ -8,7 +8,7 @@ This repository includes programs from the main course of SoftUni training.
 <a href="https://softuni.bg/trainings/3835/programming-fundamentals-september-2022" > Programming Fundamentals with Java </a> | 
 <a href="https://softuni.bg/certificates/details/148454/b1e3c0e3"> Link</a>
 <br/>
-<h5> Java Advanced module: </h5>
+<h4> Java Advanced module: </h4>
 <a href="https://softuni.bg/trainings/3959/java-advanced-january-2023" > Java Advanced</a> | t.b.d
 <br/>
 <a href="https://softuni.bg/trainings/3960/java-oop-february-2023" > Java OOP</a> | t.b.d
