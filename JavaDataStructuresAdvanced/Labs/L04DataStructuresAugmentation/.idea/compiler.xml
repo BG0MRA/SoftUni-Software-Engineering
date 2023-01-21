@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="Data-Structures-Augmentation" />
+        <module name="L04DataStructuresAugmentation" />
       </profile>
     </annotationProcessing>
   </component>
