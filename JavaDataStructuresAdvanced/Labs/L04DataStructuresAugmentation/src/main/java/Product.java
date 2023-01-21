@@ -62,4 +62,9 @@ public class Product implements Comparable<Product> {
     public int hashCode() {
         return Objects.hash(name, price, producer);
     }
+
+    @Override
+    public String toString() {
+        return String.format("{%s;%s;%.2f}", name, producer, price);
+    }
 }
