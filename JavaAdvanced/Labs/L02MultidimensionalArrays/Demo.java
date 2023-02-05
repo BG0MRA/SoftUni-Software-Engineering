@@ -36,7 +36,6 @@ public class Demo extends P00MatrixUtils {
             matrix[row] = columnArr;
         }
 
-        printMatrix(matrix);
         System.out.println(matrix[0][0]);
         System.out.println(matrix[1][1]);
         System.out.println(matrix[1][2]);
