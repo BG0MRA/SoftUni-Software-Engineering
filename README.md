@@ -17,4 +17,11 @@ This repository includes programs from the main course of SoftUni training.
 <a href="https://softuni.bg/trainings/3922/data-structures-fundamentals-with-java-november-2022" > Data Structures Fundamentals with Java </a> |
 <a href="https://softuni.bg/certificates/details/151444/a86803fb"> Link</a>
 <br/>
-<a href="https://softuni.bg/trainings/3924/data-structures-advanced-with-java-december-2022" > Data Structures Advanced with Java </a> | t.b.d.
+<a href="https://softuni.bg/trainings/3924/data-structures-advanced-with-java-december-2022" > Data Structures Advanced with Java </a> | 
+<a href="https://softuni.bg/certificates/details/153722/c6951b56"> Link</a>
+<br/>
+<br/>
+<a href="https://softuni.bg/trainings/4046/agile-essentials-with-scrum-february-2023" > Agile Essentials with Scrum </a> | t.b.d
+<br/>
+<a href="https://softuni.bg/trainings/4047/agile-advanced-with-scrum-march-2023" > Agile Advanced with Scrum </a> | t.b.d
+<br/>
