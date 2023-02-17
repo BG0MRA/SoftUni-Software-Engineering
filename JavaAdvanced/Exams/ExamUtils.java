@@ -150,6 +150,13 @@ public class ExamUtils {
         } else {
             System.out.println(ingredients.toString().replaceAll("[\\[\\]]", ""));
         }
+        //Map setup
+//        Map<String, Integer> dishCount = new LinkedHashMap<>() {{
+//            put("Biscuit", 0);
+//            put("Cake", 0);
+//            put("Pie", 0);
+//            put("Pastry", 0);
+//        }};
 
         //useful Stream
         // int sumOfIngredients = ingredientsQueue.stream()
