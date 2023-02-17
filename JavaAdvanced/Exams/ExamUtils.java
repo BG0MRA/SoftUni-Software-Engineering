@@ -137,19 +137,19 @@ public class ExamUtils {
             System.out.println(sb.toString());
         }
         //Another Print
-        System.out.print("Liquids left: ");
-        if (liquids.isEmpty()) {
-            System.out.println("none");
-        } else {
-            System.out.println(liquids.toString().replaceAll("[\\[\\]]", ""));
-        }
-
-        System.out.print("Ingredients left: ");
-        if (ingredients.isEmpty()) {
-            System.out.println("none");
-        } else {
-            System.out.println(ingredients.toString().replaceAll("[\\[\\]]", ""));
-        }
+//        System.out.print("Liquids left: ");
+//        if (liquids.isEmpty()) {
+//            System.out.println("none");
+//        } else {
+//            System.out.println(liquids.toString().replaceAll("[\\[\\]]", ""));
+//        }
+//
+//        System.out.print("Ingredients left: ");
+//        if (ingredients.isEmpty()) {
+//            System.out.println("none");
+//        } else {
+//            System.out.println(ingredients.toString().replaceAll("[\\[\\]]", ""));
+//        }
         //Map setup
 //        Map<String, Integer> dishCount = new LinkedHashMap<>() {{
 //            put("Biscuit", 0);
@@ -168,21 +168,21 @@ public class ExamUtils {
     }
 
     //When .toString Method is as it require to Print
-    public String getStatistics() {
-        return String.format("Hall size: %d", this.getCount())
-                + String.format("\n%s", this.data.stream()
-                .map(student -> student.toString())
-                .collect(Collectors.joining(System.lineSeparator())));
-    }
-
-    //Another print Method
-    public String getStatistics() {
-        String animalPrint = this.data
-                .stream()
-                .map(a -> String.format("%s %s", a.getName(), a.getCaretaker()))
-                .collect(Collectors.joining(System.lineSeparator()));
-
-        return String.format("The shelter has the following animals:\n%s", animalPrint);
+//    public String getStatistics() {
+//        return String.format("Hall size: %d", this.getCount())
+//                + String.format("\n%s", this.data.stream()
+//                .map(student -> student.toString())
+//                .collect(Collectors.joining(System.lineSeparator())));
+//    }
+//
+//    //Another print Method
+//    public String getStatistics() {
+//        String animalPrint = this.data
+//                .stream()
+//                .map(a -> String.format("%s %s", a.getName(), a.getCaretaker()))
+//                .collect(Collectors.joining(System.lineSeparator()));
+//
+//        return String.format("The shelter has the following animals:\n%s", animalPrint);
 
 //        StringBuilder statistics = new StringBuilder();
 //        statistics.append("The shelter has the following animals:");
@@ -194,4 +194,3 @@ public class ExamUtils {
 //        return statistics.toString();
 
     }
-}
