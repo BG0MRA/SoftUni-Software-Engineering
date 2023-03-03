@@ -1,4 +1,4 @@
-package theme_03_Inheritance.Exercises.P05_Restaurant;
+package E03Inheritance.P05_Restaurant;
 
 import java.math.BigDecimal;
 

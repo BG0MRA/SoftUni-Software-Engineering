@@ -1,4 +1,4 @@
-package E03Inheritance.P03_PlayersAndMonsters;
+package E03Inheritance.P03_PlayersAndMonsters.hero;
 
 public class Knight extends Hero {
     public Knight(String username, int level) {

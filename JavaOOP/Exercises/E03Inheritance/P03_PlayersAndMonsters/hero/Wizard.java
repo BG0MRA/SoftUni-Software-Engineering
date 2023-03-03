@@ -1,4 +1,4 @@
-package E03Inheritance.P03_PlayersAndMonsters;
+package E03Inheritance.P03_PlayersAndMonsters.hero;
 
 public class Wizard extends Hero {
     public Wizard(String username, int level) {
