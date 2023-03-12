@@ -1,0 +1,13 @@
+package L05Polymorphism.P03_Animals;
+
+public class Dog extends Animal {
+
+    public Dog(String name, String favouriteFood) {
+        super(name, favouriteFood);
+    }
+
+    @Override
+    public String explainSelf() {
+        return String.format("%s\n%s", super.explainSelf(), "DJAAF");
+    }
+}
