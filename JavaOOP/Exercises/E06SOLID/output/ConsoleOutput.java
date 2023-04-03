@@ -1,4 +1,4 @@
-package E06SOLID.solid.output;
+package E06SOLID.output;
 
 public class ConsoleOutput implements Output {
     private static final String SUM = "Sum: %f";

@@ -1,6 +1,7 @@
-package E06SOLID.solid.products.drinks;
+package E06SOLID.products.drinks;
 
-import theme_06_SOLID.Exersize.solid.products.Product;
+
+import E06SOLID.products.Product;
 
 public interface IDrink extends Product {
 

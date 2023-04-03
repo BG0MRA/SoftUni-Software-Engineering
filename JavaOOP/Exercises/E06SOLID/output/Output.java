@@ -1,4 +1,4 @@
-package E06SOLID.solid.output;
+package E06SOLID.output;
 
 public interface Output {
     void outputSum(double sum);

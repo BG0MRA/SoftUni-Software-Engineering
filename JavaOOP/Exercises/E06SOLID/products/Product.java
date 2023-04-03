@@ -1,4 +1,4 @@
-package E06SOLID.solid.products;
+package E06SOLID.products;
 
 public interface Product {
     double getCalories();

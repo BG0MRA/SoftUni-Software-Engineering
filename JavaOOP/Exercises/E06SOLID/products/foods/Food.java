@@ -1,6 +1,7 @@
-package E06SOLID.solid.products.foods;
+package E06SOLID.products.foods;
 
-import theme_06_SOLID.Exersize.solid.products.Product;
+
+import E06SOLID.products.Product;
 
 public abstract class Food implements Product {
 

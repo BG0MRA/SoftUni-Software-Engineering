@@ -1,4 +1,4 @@
-package E06SOLID.solid.products.foods;
+package E06SOLID.products.foods;
 
 public class Chocolate extends Food {
 

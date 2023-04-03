@@ -1,4 +1,4 @@
-package E06SOLID.solid.products.drinks;
+package E06SOLID.products.drinks;
 
 public class Coke extends Drink {
 

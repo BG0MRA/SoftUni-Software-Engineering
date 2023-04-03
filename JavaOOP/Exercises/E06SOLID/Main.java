@@ -1,4 +1,4 @@
-package E06SOLID.solid;
+package E06SOLID;
 
 public class Main {
 

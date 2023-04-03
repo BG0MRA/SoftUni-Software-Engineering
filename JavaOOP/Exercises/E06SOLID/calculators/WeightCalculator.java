@@ -1,6 +1,7 @@
-package E06SOLID.solid.calculators;
+package E06SOLID.calculators;
 
-import theme_06_SOLID.Exersize.solid.products.Product;
+
+import E06SOLID.products.Product;
 
 import java.util.List;
 
