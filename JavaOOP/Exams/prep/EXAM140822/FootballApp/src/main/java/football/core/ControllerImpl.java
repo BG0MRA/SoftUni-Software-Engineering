@@ -131,7 +131,6 @@ public class ControllerImpl implements Controller {
         StringBuilder sb = new StringBuilder();
         for (Field field : fields.values()) {
              sb.append(field.getInfo());
-            //sb.append(System.lineSeparator());
 
         }
         return sb.toString().trim();
