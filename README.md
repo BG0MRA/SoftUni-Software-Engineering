@@ -12,7 +12,8 @@ This repository includes programs from the main course of SoftUni training.
 <a href="https://softuni.bg/trainings/3959/java-advanced-january-2023" > Java Advanced</a> |
 <a href="https://softuni.bg/certificates/details/161795/d65ee8b1"> Link</a>
 <br/>
-<a href="https://softuni.bg/trainings/3960/java-oop-february-2023" > Java OOP</a> | t.b.d
+<a href="https://softuni.bg/trainings/3960/java-oop-february-2023" > Java OOP</a> |
+<a href="https://softuni.bg/certificates/details/169003/d40406a1"> Link</a>
 <br/>
 <h3> Open Courses: </h3>
 <a href="https://softuni.bg/trainings/3922/data-structures-fundamentals-with-java-november-2022" > Data Structures Fundamentals with Java </a> |
@@ -22,7 +23,8 @@ This repository includes programs from the main course of SoftUni training.
 <a href="https://softuni.bg/certificates/details/153722/c6951b56"> Link</a>
 <br/>
 <br/>
-<a href="https://softuni.bg/trainings/4046/agile-essentials-with-scrum-february-2023" > Agile Essentials with Scrum </a> | t.b.d
+<a href="https://softuni.bg/trainings/4046/agile-essentials-with-scrum-february-2023" > Agile Essentials with Scrum </a> |
+<a href="https://softuni.bg/certificates/details/163531/00c7e7b7"> Link</a>
 <br/>
 <a href="https://softuni.bg/trainings/4047/agile-advanced-with-scrum-march-2023" > Agile Advanced with Scrum </a> | t.b.d
 <br/>
