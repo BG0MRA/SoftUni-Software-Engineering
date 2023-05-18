@@ -26,5 +26,6 @@ This repository includes programs from the main course of SoftUni training.
 <a href="https://softuni.bg/trainings/4046/agile-essentials-with-scrum-february-2023" > Agile Essentials with Scrum </a> |
 <a href="https://softuni.bg/certificates/details/163531/00c7e7b7"> Link</a>
 <br/>
-<a href="https://softuni.bg/trainings/4047/agile-advanced-with-scrum-march-2023" > Agile Advanced with Scrum </a> | t.b.d
+<a href="https://softuni.bg/trainings/4047/agile-advanced-with-scrum-march-2023" > Agile Advanced with Scrum </a> |
+<a href="https://softuni.bg/certificates/details/171109/92cdc12b"> Link</a>
 <br/>
