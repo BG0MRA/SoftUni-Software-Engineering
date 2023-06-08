@@ -1,3 +1,4 @@
+USE soft_uni;
 SET GLOBAL log_bin_trust_function_creators = 1;
 SET SQL_SAFE_UPDATES = 0;
 -- 01 Exercise
@@ -79,7 +80,7 @@ RETURN (
         WHEN salary <= 50000 THEN 'Average'
         ELSE 'High'
     END
-)
+)%%
 DELIMITER ;
 
 SELECT ufn_get_salary_level(13500);
