@@ -20,7 +20,7 @@ ADD COLUMN town_id int;
 ALTER TABLE minions
 ADD CONSTRAINT fk_minions_towns
 FOREIGN KEY minions(town_id)
-REFERENCES towns(id);
+REFERENCES towns(town_id) ;
 
 -- P03. Insert Records in Both Tables
 INSERT INTO towns (id, `name`) VALUES
