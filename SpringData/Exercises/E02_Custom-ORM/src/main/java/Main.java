@@ -1,6 +1,7 @@
 package main.java;
 
-import entities.User;
+
+import main.java.entities.User;
 import main.java.orm.EntityManager;
 
 import java.lang.reflect.InvocationTargetException;

@@ -1,8 +1,8 @@
 package main.java.orm;
 
-import orm.annotations.Column;
-import orm.annotations.Entity;
-import orm.annotations.Id;
+import main.java.orm.annotations.Column;
+import main.java.orm.annotations.Entity;
+import main.java.orm.annotations.Id;
 
 import java.lang.reflect.Field;
 import java.lang.reflect.InvocationTargetException;
