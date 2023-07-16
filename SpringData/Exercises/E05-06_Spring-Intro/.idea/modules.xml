@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/E05-06_Spring-Intro-advancedQuerying.iml" filepath="$PROJECT_DIR$/.idea/E05-06_Spring-Intro-advancedQuerying.iml" />
+      <module fileurl="file://$PROJECT_DIR$/game-store-mapping-exercise/game-store-mapping-exercise.iml" filepath="$PROJECT_DIR$/game-store-mapping-exercise/game-store-mapping-exercise.iml" />
+    </modules>
+  </component>
+</project>
