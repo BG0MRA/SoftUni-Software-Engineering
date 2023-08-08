@@ -9,5 +9,7 @@ import java.util.Optional;
 @Repository
 public interface CarsRepository extends JpaRepository<Car, Long> {
     Optional<Car> findFirstByPlateNumber(String plateNumber);
+    Optional<Car> findById(Long id);
+
 
 }
