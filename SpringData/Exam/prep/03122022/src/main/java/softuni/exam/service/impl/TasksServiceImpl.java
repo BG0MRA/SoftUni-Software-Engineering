@@ -3,12 +3,14 @@ package softuni.exam.service.impl;
 import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import softuni.exam.models.dto.TaskDto;
 import softuni.exam.models.dto.TaskImportDto;
 import softuni.exam.models.dto.TaskWrapperDto;
 import softuni.exam.models.entity.Car;
 import softuni.exam.models.entity.Mechanic;
 import softuni.exam.models.entity.Part;
 import softuni.exam.models.entity.Task;
+import softuni.exam.models.entity.enums.CarType;
 import softuni.exam.repository.CarsRepository;
 import softuni.exam.repository.MechanicsRepository;
 import softuni.exam.repository.PartsRepository;
@@ -25,6 +27,7 @@ import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 import java.util.List;
 import java.util.Optional;
+import java.util.stream.Collectors;
 
 import static softuni.exam.models.Constants.*;
 
@@ -100,6 +103,12 @@ public class TasksServiceImpl implements TasksService {
 
     @Override
     public String getCoupeCarTasksOrderByPrice() {
-        return null;
+        return this.tasksRepository.findAllByCarCarTypeOrderByPriceDesc(CarType.coupe)
+                .stream()
+                .map(task -> this.modelMapper.map(task, TaskDto.class))
+                .map(TaskDto::toString)
+                .collect(Collectors.joining())
+                .trim();
+
     }
 }
