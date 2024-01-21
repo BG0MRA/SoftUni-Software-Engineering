@@ -19,7 +19,8 @@ This repository includes programs from the main course of SoftUni training.
 <a href="https://softuni.bg/trainings/4116/mysql-may-2023" > MySQL</a> | 
 <a href="https://softuni.bg/certificates/details/172269/d8e9b398"> Link</a>
 <br/>
-<a href="https://softuni.bg/trainings/4115/spring-data-june-2023" > Spring Data</a> | t.b.d.
+<a href="https://softuni.bg/trainings/4115/spring-data-june-2023" > Spring Data</a> | 
+<a href="https://softuni.bg/certificates/details/182123/756f43ac"> Link</a>
 <h3> Open Courses: </h3>
 <a href="https://softuni.bg/trainings/3922/data-structures-fundamentals-with-java-november-2022" > Data Structures Fundamentals with Java </a> |
 <a href="https://softuni.bg/certificates/details/151444/a86803fb"> Link</a>
