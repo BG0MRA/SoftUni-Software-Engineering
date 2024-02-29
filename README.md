@@ -23,7 +23,7 @@ This repository includes programs from the main course of SoftUni training.
 <br/>
 <h4> JS-Front End: </h4>
 <a href="https://softuni.bg/trainings/4361/html-and-css-january-2024" > HTML & CSS</a> | 
-<a href="https://softuni.bg/certificates/details/172269/d8e9b398"> Link</a>
+<a href="https://softuni.bg/certificates/details/205162/38126f33"> Link</a>
 <br/>
 <a href="https://softuni.bg/trainings/4362/js-front-end-february-2024" > JS-FRONT-END</a> | t.b.d.
 <br/>
