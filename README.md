@@ -1,5 +1,7 @@
 # <a href="https://softuni.bg/"> SoftUni Software Engineering </a>
+
 This repository includes programs from the main course of SoftUni training.
+
 <h2> Certificates: </h2>
 <h3> Main Courses: </h3>
 <a href="https://softuni.bg/trainings/3745/programming-basics-with-java-may-2022" > Programming Basics with Java </a> | 
@@ -20,7 +22,8 @@ This repository includes programs from the main course of SoftUni training.
 <a href="https://softuni.bg/certificates/details/172269/d8e9b398"> Link</a>
 <br/>
 <h4> JS-Front End: </h4>
-<a href="https://softuni.bg/trainings/4361/html-and-css-january-2024" > HTML & CSS</a> | t.b.d.
+<a href="https://softuni.bg/trainings/4361/html-and-css-january-2024" > HTML & CSS</a> | 
+<a href="https://softuni.bg/certificates/details/172269/d8e9b398"> Link</a>
 <br/>
 <a href="https://softuni.bg/trainings/4362/js-front-end-february-2024" > JS-FRONT-END</a> | t.b.d.
 <br/>
