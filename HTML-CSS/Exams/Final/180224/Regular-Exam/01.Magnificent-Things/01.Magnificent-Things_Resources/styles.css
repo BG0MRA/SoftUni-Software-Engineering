@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font: 14px/1.2 Inter, sans-serif;
+  background-color: #85dcff;
+}
+
+img {
+  display: block;
+  width: 360px;
+  height: auto;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 1);
+}
+
+article {
+  display: flex;
+  max-width: 1000px;
+  margin: 70px auto;
+  gap: 90px;
+}
+
+article header h2 {
+  font-size: 3.07em;
+  font-weight: bold;
+  margin-top: 125px;
+  margin-bottom: 30px;
+}
+
+article .buttons {
+  display: flex;
+  justify-content: start;
+  gap: 14px;
+  margin-top: 32px;
+}
+
+article .button {
+  border-radius: 3px;
+  padding: 17px 30px;
+  text-decoration: none;
+  color: #000;
+}
+
+article .button.getStarted {
+  border: 1px solid #000;
+  background-color: #42aa59;
+}
+
+article .button.getStarted:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+article .button.learnMore {
+  border: 1px solid #fff;
+  background-color: #fff;
+}

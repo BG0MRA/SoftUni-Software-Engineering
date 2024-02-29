@@ -1,0 +1,6 @@
+p {
+  font-weight: bold;
+  background-color: coral;
+  padding-inline: 30%;
+}
+/* 8Set padding-inline to 30% to solve the problem. */
