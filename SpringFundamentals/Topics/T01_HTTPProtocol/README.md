@@ -1,0 +1,11 @@
+# Lecture HTTP Protocol
+
+• Internet Protocol;
+• TCP/UDP;
+• The OSI Models;
+• HTTP Request;
+• HTTP Response;
+• URL-s;
+• MIME Types;
+• HTTP Tools;
+• HTTP/1 HTTP/2 HTTP/3
