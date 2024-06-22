@@ -1,12 +1,15 @@
 package com.dictionaryapp.service;
 
 import com.dictionaryapp.config.UserSession;
+import com.dictionaryapp.model.dto.UserLoginDTO;
 import com.dictionaryapp.model.dto.UserRegisterDTO;
 import com.dictionaryapp.model.entity.User;
 import com.dictionaryapp.repo.UserRepository;
 import org.modelmapper.ModelMapper;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
+
+import java.util.Optional;
 
 @Service
 public class UserService {
@@ -34,7 +37,7 @@ public class UserService {
             return false;
         }
 
-        if(!data.getPassword().equals(data.getConfirmPassword())){
+        if (!data.getPassword().equals(data.getConfirmPassword())) {
             return false;
         }
 
@@ -46,4 +49,22 @@ public class UserService {
         return true;
     }
 
+    public boolean login(UserLoginDTO data) {
+        Optional<User> userOptional = userRepository.findByUsername(data.getUsername());
+
+        if (userOptional.isEmpty()) {
+            return false;
+        }
+
+        User user = userOptional.get();
+
+        if (!passwordEncoder.matches(data.getPassword(), user.getPassword())) {
+            return false;
+        }
+
+        userSession.login(user);
+
+
+        return true;
+    }
 }
