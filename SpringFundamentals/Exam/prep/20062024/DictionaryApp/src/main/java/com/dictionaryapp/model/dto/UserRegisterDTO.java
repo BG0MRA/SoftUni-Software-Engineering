@@ -14,6 +14,10 @@ public class UserRegisterDTO {
     @Size(min = 3, max = 20, message = "Password must be between 3 and 20 characters")
     private String password;
 
+    @NotBlank(message = "Confirm Password is required")
+    @Size(min = 3, max = 20, message = "Confirm Password must be between 3 and 20 characters")
+    private String confirmPassword;
+
     @NotBlank(message = "Email is required")
     @Email(message = "Email should be valid")
     private String email;
@@ -22,6 +26,15 @@ public class UserRegisterDTO {
     }
 
     // Getters and Setters
+
+    public String getConfirmPassword() {
+        return confirmPassword;
+    }
+
+    public void setConfirmPassword(String confirmPassword) {
+        this.confirmPassword = confirmPassword;
+    }
+
     public String getUsername() {
         return username;
     }

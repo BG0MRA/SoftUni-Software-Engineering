@@ -28,6 +28,17 @@ public class UserService {
             return false;
         }
 
+        boolean isUsernameOrEmailTaken = userRepository.findByUsernameOrEmail(data.getUsername(), data.getEmail()).isPresent();
+
+        if (isUsernameOrEmailTaken) {
+            return false;
+        }
+
+        if(!data.getPassword().equals(data.getConfirmPassword())){
+            return false;
+        }
+
+
         User user = modelMapper.map(data, User.class);
         user.setPassword(passwordEncoder.encode(data.getPassword()));
         userRepository.save(user);
