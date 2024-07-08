@@ -26,11 +26,11 @@ This repository includes programs from the main course of SoftUni training.
 <a href="https://softuni.bg/certificates/details/205162/38126f33"> Link</a>
 <br/>
 <a href="https://softuni.bg/trainings/4362/js-front-end-february-2024" > JS-FRONT-END</a> | 
-<a href="https://softuni.bg/certificates/details/212297/180b6ea8">
+<a href="https://softuni.bg/certificates/details/212297/180b6ea8"> Link</a>
 <br/>
-<h4> Java Web: </h4>
+<h4> Java Web: </h4> 
 <a href="https://softuni.bg/trainings/4530/spring-fundamentals-may-2024" > Spring Fundamentals</a> | 
-<a href="https://softuni.bg/certificates/details/219350/f15e9eba" >
+<a href="https://softuni.bg/certificates/details/219350/f15e9eba" > Link</a>
 <br/>
 <a href="https://softuni.bg/trainings/4532/spring-advanced-june-2024" > Spring Advanced</a> | <in progress>
 <br/>
